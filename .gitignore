@@ -1,0 +1,8 @@
+# ignore .idea folders
+.idea
+
+# ignore also .jar files
+.jar
+
+# ignore .class files
+.class
