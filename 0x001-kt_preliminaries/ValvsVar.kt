@@ -5,10 +5,10 @@
 fun main()
 {
     var brandvar = "Bently" // is mutable
-    brandvar = "Porsche"
+    brandvar = "Porsche"//allowed
 
 
     // final String brandval = "Bugatti"
     val brandval = "Bugatti" // read only i.e is immutable
-    //brandval = "Premio"
+    //brandval = "Premio" // not allowed
 }
