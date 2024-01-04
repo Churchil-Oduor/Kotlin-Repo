@@ -16,8 +16,9 @@ fun main()
 
 	when (age)
 	{
-		in 13..19 ->println("Is a Teenager!")
-		in 20..25 -> println("Is a young Adult")
+		in 13..19 ->println("Is a Teenager!") // means "if age is in the range of 13 to 19 then ..."
+		in 20..25 -> println("Is a young Adult") // similar to statement above
+		else -> println("Is an Adult")
 	}
 
 
