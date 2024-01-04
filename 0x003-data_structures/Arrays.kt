@@ -23,7 +23,5 @@ fun main()
     ArrayofNulls.fill("$")
     ArrayofNulls[1] = "Sardines"
     println(ArrayofNulls.contentToString())
-  
-
-
+    
 }
