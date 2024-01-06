@@ -16,7 +16,8 @@ fun main()
         println("Benz has been removed from the Car collection")
     
     val emptyList = mutableListOf<Any>() //creates an empty list -> []
-    println(emptyList.isEmpty()) // returns true
+    emptyList.add("element")
+    println(emptyList.isEmpty()) // returns false
     
 
     
